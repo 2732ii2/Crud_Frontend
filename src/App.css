@@ -1,38 +1,179 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: rgba(151, 149, 149, 0.2);
+}
+
+
+
+#header{
+  width: 100%;
+  /* margin-top: 1%; */
+  height: 14%;
+  display: flex;
+  color: black;
+  font-size: 22px;
+  justify-content: start;
+  padding-left: 20px;
+  align-items: center;
+  background: white;
+  /* border-bottom: 1px solid white; */
+
+}
+#lbl{
+  width: 25%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  margin-left: 10%;
+}
+#init{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#slit{
+  width: 99%;
+  height: 7px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center; 
+  background: rgb(10, 10, 10,.7);
+  padding: 5px;
+  border-radius: 15px;
+}
+#ins{
+  width: 25%;
+  min-height: 100%;
+  transition: all .6s ease-in-out;
+  /* margin-left:69%; */
+  border-radius: 10px;
+  background: white;
+}
+#labels{
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+
+#home{
+  width: 100%;
+  display: flex;
+  padding-left: 4%;
+
+  flex-direction: column;
+  height: 100%;
+}
+#create{
+  width: 100%;
+  display: flex;
+  padding-left: 4%;
+  flex-direction: column;
+  height: 100%;
+}
+#inpslit{
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-left:10%;
+  display: flex;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  align-items: center;
+}
+#btn{
+  width: 100px;
+  height: 40px;
+  margin-top: 5%;
+  background: black;
   color: white;
+  border-radius: 20px;
+  
+}
+#inps{
+  width: 80%;
+  text-transform: capitalize;
+  font-size: 18px;
+  height: 40px;
+}
+#inp{
+  width: 89%;
+  margin-left: 2%;
+  height: 40px;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding-left: 10px;
+  border-radius: 7px;
+  border: 1px solid rgb(9, 9, 9,.3);
+}
+#tbl{
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 2%;
+  position: relative;
+  height: 53%;
+  /* border: 1px solid black; */
+}
+#blured{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -30%;
+  background: rgb(129, 126, 126,.5);
+  backdrop-filter: blur(5px);
 }
 
-.App-link {
-  color: #61dafb;
-}
+#circle{
 
-@keyframes App-logo-spin {
-  from {
+  margin: auto;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 10%;
+  height: 100px;
+  border-right: 3px solid rgb(16, 15, 15);
+  border-top: 3px solid rgb(12, 11, 11,.9);
+  border-left: none;
+  border-bottom:none;
+  animation: takeround 1.5s  infinite reverse ;
+}
+td{
+  width: 10%; height: 27% ;
+}
+@keyframes takeround {
+  0%{
     transform: rotate(0deg);
   }
-  to {
+  100%{
     transform: rotate(360deg);
   }
+}
+tr,td{
+  text-align: center;
+  border-bottom : 1px solid rgb(9, 9, 9,.3);
+  /* box-shadow: 2px 2px 5px rgb(20, 20, 20,.5); */
+}
+#pageslit{
+  width: 90%;
+  height: 40px;
+  margin-top: 2%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+h1{
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
