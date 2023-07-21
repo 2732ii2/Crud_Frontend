@@ -6,6 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+
+## Screenshot's
+<h2>Home page</h2>
+<img width="1440" alt="Screenshot 2023-07-21 at 12 42 36 PM" src="https://github.com/2732ii2/Crud_Frontend/assets/83974207/d528601e-d100-4977-8f0e-f6efcb5599c2">
+
+
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
