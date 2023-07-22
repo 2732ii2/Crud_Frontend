@@ -7,6 +7,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 
+## Live Link 
+https://bespoke-sprinkles-81a736.netlify.app/
+
+<p>As it's is deployed link as in backend database mongodb cluster is used which was shared db and free </p>
+<p>So for that you have to refresh website atleast two to three times so it will  hit api in backend Serve</p>
+
 
 ## Screenshot's
 <h2>Home page</h2>
